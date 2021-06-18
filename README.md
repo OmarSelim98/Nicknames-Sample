@@ -8,6 +8,23 @@
         The lib folder contains JDBC which is the main connection driver between Mysql DB and logstash.
     </li>
     <li>
-        Saving contacts functionality is all setup, with a command file (ContactsToDB), which can run directly from the CLI, initially it's configured to be every minute for testing and monitoring causes, but it can be easily customized to any other interval.
+        Saving contacts functionality is all setup, with a command file (ContactsToDB), which can be run directly from the CLI, initially it's configured to be every minute for testing and monitoring causes, but it can be easily customized to any other interval.
+    </li>
+    <li>
+        Api:
+            <ol>
+                <li style="font-weight:bold;">
+                    api/v1/saveContacts
+                    body:
+                        {
+                            contacts:[{
+                                name:"X",
+                                email:"X@X.X",
+                                phone:"XXXXXXXXXXXX"
+                            }]
+                        }
+                <li>
+            </ol>
+            
     </li>
 </ul>
