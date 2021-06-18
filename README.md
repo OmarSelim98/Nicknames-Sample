@@ -7,4 +7,7 @@
         (which is not added to the docker file), but it was added for custom db to elasticsearch syncronization.
         The lib folder contains JDBC which is the main connection driver between Mysql DB and logstash.
     </li>
+    <li>
+        Saving contacts functionality is all setup, with a command file (ContactsToDB), which can run directly from the CLI, initially it's configured to be every minute for testing and monitoring causes, but it can be easily customized to any other interval.
+    </li>
 </ul>

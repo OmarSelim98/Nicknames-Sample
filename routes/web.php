@@ -17,8 +17,4 @@ use App\Models\Name;
 */
 
 Route::get('/', function () {
-    
-    $x = Name::search('klaud')->get();
-    dd($x[0]->name);
-    
 });
